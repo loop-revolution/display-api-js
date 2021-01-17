@@ -24,4 +24,4 @@ export type CardArgs = {
 	// TODO: Add plus button option for group blocks
 }
 
-export type CardIcon = "Folder" | "TaskComplete" | "Message"
+export type CardIcon = "Folder" | "TaskComplete" | "Message" | "Box" | "Type" | "Feed"

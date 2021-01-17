@@ -19,6 +19,6 @@
 	"license": "MIT",
 	"repository": "git@github.com:loop-revolution/display-api-js.git",
 	"description": "Tools to help with Loop's Display API",
-	"name": "@loop-revolution/display-api",
+	"name": "display-api",
 	"private": false
 }

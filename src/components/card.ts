@@ -9,7 +9,7 @@ export type CardComponent = {
 
 export type CardArgs = {
 	/** Data on the card's header */
-	header: {
+	header?: {
 		/** Title on the top of the card */
 		title: TextComponent
 		/** Icon to display next to the title */
@@ -24,4 +24,4 @@ export type CardArgs = {
 	// TODO: Add plus button option for group blocks
 }
 
-export type CardIcon = "folder" | "task_complete" | "message"
+export type CardIcon = "Folder" | "TaskComplete" | "Message"

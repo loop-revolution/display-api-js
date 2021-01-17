@@ -1,0 +1,9 @@
+# Built output
+lib
+
+# Node stuff
+node_modules
+yarn-error.log
+
+# VScode
+.vscode

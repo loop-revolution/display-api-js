@@ -1,7 +1,10 @@
 /** Default, simple text */
 export type TextComponent = {
 	cid: "text"
-	args: {
+	args: TextArgs
+}
+
+export type TextArgs = {
 		/** Text to be rendered */
 		text: string
 		/** Color of the text */
@@ -9,6 +12,5 @@ export type TextComponent = {
 		/** Optional styling preset */
 		preset?: TextPreset
 	}
-}
 
 export type TextPreset = "heading"

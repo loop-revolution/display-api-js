@@ -13,4 +13,4 @@ export type TextArgs = {
 		preset?: TextPreset
 	}
 
-export type TextPreset = "heading"
+export type TextPreset = "Heading"

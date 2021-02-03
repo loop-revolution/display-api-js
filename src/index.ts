@@ -5,3 +5,4 @@ export * from "./MethodObject"
 export * from "./components/card";
 export * from "./components/text";
 export * from "./components/stack";
+export * from "./components/input";

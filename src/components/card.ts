@@ -13,7 +13,7 @@ export type CardArgs = {
 		/** Title on the top of the card */
 		title: TextComponent
 		/** Icon to display next to the title */
-		icon?: CardIcon
+		icon?: IconName
 		/** The ID of the block, purely for card linking */
 		block_id?: string
 	}
@@ -24,4 +24,4 @@ export type CardArgs = {
 	// TODO: Add plus button option for group blocks
 }
 
-export type CardIcon = "Folder" | "TaskComplete" | "Message" | "Box" | "Type" | "Feed"
+export type IconName = "Folder" | "TaskComplete" | "Message" | "Box" | "Type" | "Feed"

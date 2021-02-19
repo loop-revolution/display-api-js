@@ -1,4 +1,5 @@
 import { ComponentObject } from "../ComponentObject"
+import { IconName } from "./icon"
 import { MenuComponent } from "./menu"
 import { TextComponent } from "./text"
 
@@ -24,7 +25,4 @@ export type CardArgs = {
 	color?: string
 	/** Main content of the card */
 	content: ComponentObject
-	// TODO: Add plus button option for group blocks
 }
-
-export type IconName = "Folder" | "TaskComplete" | "Message" | "Box" | "Type" | "Feed"

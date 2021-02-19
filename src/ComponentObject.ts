@@ -4,6 +4,7 @@ import { CardComponent } from "./components/card"
 import { InputComponent } from "./components/input"
 import { IconComponent } from "./components/icon"
 import { ButtonComponent } from "./components/button"
+import { BlockList } from "./components/blocklist"
 
 export type ComponentObject =
 	| CardComponent
@@ -12,3 +13,4 @@ export type ComponentObject =
 	| InputComponent
 	| IconComponent
 	| ButtonComponent
+	| BlockList

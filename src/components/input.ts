@@ -1,7 +1,6 @@
 import { MethodObject } from "../MethodObject"
 import { TextComponent } from "./text"
 
-/** A styling component, orders components */
 export type InputComponent = {
 	cid: "input"
 	args: InputArgs

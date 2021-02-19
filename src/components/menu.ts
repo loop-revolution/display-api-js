@@ -23,9 +23,9 @@ export type MenuArgs = {
 	delete?: boolean
 	/** Clicking should open a permissions screen, this is the number of people with permissions */
 	permissions?: {
-		public?: boolean
-		full?: number
-		edit?: number
-		view?: number
+		public: boolean
+		full: number
+		edit: number
+		view: number
 	}
 }

@@ -1,4 +1,5 @@
 import { ComponentObject } from "./ComponentObject"
+import { MenuComponent } from "./components/menu"
 
 /** What will be returned from the Loop API */
 export type DisplayObject = {
@@ -12,6 +13,8 @@ export type DisplayObject = {
 			title?: string
 			/** The header text for the block page */
 			header?: string
+			/** A menu for block actions on a page */
+			menu?: MenuComponent
 		}
 	}
 }

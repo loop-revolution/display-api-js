@@ -1,4 +1,5 @@
 import { ComponentObject } from "../ComponentObject"
+import { MenuComponent } from "./menu"
 import { TextComponent } from "./text"
 
 /** Card styling for displaying Block data on other pages */
@@ -16,6 +17,8 @@ export type CardArgs = {
 		icon?: IconName
 		/** The ID of the block, purely for card linking */
 		block_id?: string
+		/** Block actions in a menu */
+		menu?: MenuComponent
 	}
 	/** Card's accent color (hex color w/ #) */
 	color?: string

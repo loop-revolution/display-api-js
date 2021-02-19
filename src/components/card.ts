@@ -2,6 +2,7 @@ import { ComponentObject } from "../ComponentObject"
 import { IconName } from "./icon"
 import { MenuComponent } from "./menu"
 import { TextComponent } from "./text"
+import { ButtonComponent } from "./button"
 
 /** Card styling for displaying Block data on other pages */
 export type CardComponent = {
@@ -18,6 +19,8 @@ export type CardArgs = {
 		icon?: IconName
 		/** The ID of the block, purely for card linking */
 		block_id?: string
+		/** Buttons to render next to the menu */
+		buttons?: ButtonComponent[]
 		/** Block actions in a menu */
 		menu?: MenuComponent
 	}

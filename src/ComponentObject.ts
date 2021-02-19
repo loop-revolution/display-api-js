@@ -3,6 +3,7 @@ import { StackComponent } from "./components/stack"
 import { CardComponent } from "./components/card"
 import { InputComponent } from "./components/input"
 import { IconComponent } from "./components/icon"
+import { ButtonComponent } from "./components/button"
 
 export type ComponentObject =
 	| CardComponent
@@ -10,3 +11,4 @@ export type ComponentObject =
 	| StackComponent
 	| InputComponent
 	| IconComponent
+	| ButtonComponent

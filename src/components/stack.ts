@@ -1,8 +1,8 @@
-import { ComponentObject } from "../ComponentObject";
+import { ComponentObject } from "../ComponentObject"
 
 /** A styling component, orders components */
 export type StackComponent = {
-	cid: "stack",
+	cid: "stack"
 	args: StackArgs
 }
 

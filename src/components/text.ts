@@ -5,12 +5,12 @@ export type TextComponent = {
 }
 
 export type TextArgs = {
-		/** Text to be rendered */
-		text: string
-		/** Color of the text */
-		color: string
-		/** Optional styling preset */
-		preset?: TextPreset
-	}
+	/** Text to be rendered */
+	text: string
+	/** Color of the text */
+	color: string
+	/** Optional styling preset */
+	preset?: TextPreset
+}
 
 export type TextPreset = "Heading" | "Info" | "Default" | "Warn" | "Error"

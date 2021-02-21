@@ -9,4 +9,4 @@ export type IconArgs = {
 	size?: string
 }
 
-export type IconName = "Folder" | "TaskComplete" | "Message" | "Box" | "Type" | "Feed"
+export type IconName = "Folder" | "TaskComplete" | "Message" | "Box" | "Type" | "Feed" | "Plus"

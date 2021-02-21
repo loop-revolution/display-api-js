@@ -13,6 +13,8 @@ export type SearchComponent = {
 	then?: ActionObject
 	/** What to do when selection is cancelled */
 	cancel?: ActionObject
+	/** What to display when choosing a block */
+	action_text?: string
 }
 
 export type SearchType = "Block" | "User"

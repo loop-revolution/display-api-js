@@ -6,7 +6,7 @@ import { MenuComponent } from "./components/menu"
 export type ActionObject = {
 	/** A method to perform with the API */
 	method?: MethodObject
-	launch?: LaunchOption
+	/** A search component to open for the action.
+	    These components have their own action objects for after. */
+	search?: SearchComponent
 }
-
-export type LaunchOption = SearchComponent | MenuComponent

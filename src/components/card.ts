@@ -19,8 +19,6 @@ export type CardArgs = {
 		icon?: IconName
 		/** The ID of the block, purely for card linking */
 		block_id?: string
-		/** Buttons to render next to the menu */
-		buttons?: ButtonComponent[]
 		/** Block actions in a menu */
 		menu?: MenuComponent
 	}

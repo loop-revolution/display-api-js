@@ -7,14 +7,16 @@ import { ButtonComponent } from "./components/button"
 import { BlockList } from "./components/blocklist"
 import { BadgeComponent } from "./components/badge"
 import { ProgressComponent } from "./components/progress"
+import { CheckboxComponent } from "./components/checkbox"
 
 export type ComponentObject =
-	| CardComponent
-	| TextComponent
-	| StackComponent
-	| InputComponent
-	| IconComponent
-	| ButtonComponent
-	| BlockList
 	| BadgeComponent
+	| BlockList
+	| ButtonComponent
+	| CardComponent
+	| CheckboxComponent
+	| IconComponent
+	| InputComponent
 	| ProgressComponent
+	| StackComponent
+	| TextComponent

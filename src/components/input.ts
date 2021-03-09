@@ -22,6 +22,7 @@ export type InputArgs = {
 			method: MethodObject
 		}
 	}
+	disabled?: boolean
 }
 
 export type InputType = "Text" | "Number" | "Date" | "Time" | "Frequency"

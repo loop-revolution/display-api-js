@@ -1,3 +1,5 @@
+import { ColorSchemes } from "../ColorSchemes"
+
 export type IconComponent = {
 	cid: "icon"
 	args: IconArgs
@@ -6,6 +8,7 @@ export type IconComponent = {
 export type IconArgs = {
 	icon: IconName
 	color?: string
+	color_scheme?: ColorSchemes
 	size?: string
 }
 

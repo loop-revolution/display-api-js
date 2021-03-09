@@ -1,4 +1,5 @@
 import { ActionObject } from "../ActionObject"
+import { ColorSchemes } from "../ColorSchemes"
 import { IconName } from "./icon"
 
 export type ButtonComponent = {
@@ -9,7 +10,7 @@ export type ButtonComponent = {
 export type ButtonArgs = {
 	interact?: ActionObject
 	text: string
-	color_scheme?: string
+	color_scheme?: ColorSchemes
 	variant?: ButtonVariant
 	icon?: IconName
 	size?: string

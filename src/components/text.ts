@@ -1,3 +1,5 @@
+import { ColorSchemes } from "../ColorSchemes"
+
 /** Default, simple text */
 export type TextComponent = {
 	cid: "text"
@@ -8,7 +10,8 @@ export type TextArgs = {
 	/** Text to be rendered */
 	text: string
 	/** Color of the text */
-	color: string
+	color?: string
+	color_scheme?: ColorSchemes
 	/** Optional styling preset */
 	preset?: TextPreset
 }

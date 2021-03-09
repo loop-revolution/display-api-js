@@ -11,7 +11,7 @@ export type InputArgs = {
 	label?: string
 	/** This is special; should be used in constructing arguments */
 	name?: string
-	type?: string
+	type?: InputType
 	/** This should be displayed until clicked, then should turn into this input
 	 * 	If there is a confirm_cancel, it should turn back into this after cancel/confirm.
 	 */
@@ -23,3 +23,5 @@ export type InputArgs = {
 		}
 	}
 }
+
+export type InputType = "Text" | "Number" | "Date" | "Time" | "Frequency"

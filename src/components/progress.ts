@@ -1,5 +1,5 @@
 export type ProgressComponent = {
-	cid: "badge"
+	cid: "progress"
 	args: ProgressArgs
 }
 

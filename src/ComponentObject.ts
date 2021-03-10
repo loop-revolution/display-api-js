@@ -9,6 +9,7 @@ import { BadgeComponent } from "./components/badge"
 import { ProgressComponent } from "./components/progress"
 import { CheckboxComponent } from "./components/checkbox"
 import { DropdownComponent } from "./components/dropdown"
+import { LinkComponent } from "./components/link"
 
 export type ComponentObject =
 	| BadgeComponent
@@ -22,3 +23,4 @@ export type ComponentObject =
 	| StackComponent
 	| TextComponent
 	| DropdownComponent
+	| LinkComponent

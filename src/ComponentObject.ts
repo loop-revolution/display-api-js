@@ -8,6 +8,7 @@ import { BlockList } from "./components/blocklist"
 import { BadgeComponent } from "./components/badge"
 import { ProgressComponent } from "./components/progress"
 import { CheckboxComponent } from "./components/checkbox"
+import { DropdownComponent } from "./components/dropdown"
 
 export type ComponentObject =
 	| BadgeComponent
@@ -20,3 +21,4 @@ export type ComponentObject =
 	| ProgressComponent
 	| StackComponent
 	| TextComponent
+	| DropdownComponent

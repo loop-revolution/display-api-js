@@ -1,6 +1,5 @@
 import { IconName } from "./icon"
 import { ActionObject } from "../ActionObject"
-import { ColorSchemes } from "../ColorSchemes"
 import { ComponentObject } from "../ComponentObject"
 
 export type ActionPopoverComponent = {

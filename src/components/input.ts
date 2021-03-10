@@ -23,6 +23,8 @@ export type InputArgs = {
 		}
 	}
 	disabled?: boolean
+	size?: InputSize
 }
 
 export type InputType = "Text" | "Number" | "Date" | "Time" | "Frequency"
+export type InputSize = "Large" | "Medium" | "Small" | "MultiLine" | "Flexible"

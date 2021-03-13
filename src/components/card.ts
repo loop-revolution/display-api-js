@@ -2,7 +2,6 @@ import { ComponentObject } from "../ComponentObject"
 import { IconName } from "./icon"
 import { MenuComponent } from "./menu"
 import { TextComponent } from "./text"
-import { ButtonComponent } from "./button"
 
 /** Card styling for displaying Block data on other pages */
 export type CardComponent = {
@@ -21,6 +20,12 @@ export type CardArgs = {
 		block_id?: string
 		/** Block actions in a menu */
 		menu?: MenuComponent
+		/**
+		 * Custom header to show instead of title & icon.
+		 * There shouldn't be anything clickible here.
+		 * The menu should still be appended to the side of this.
+		 * */
+		custom?: ComponentObject
 	}
 	/** Card's accent color (hex color w/ #) */
 	color?: string

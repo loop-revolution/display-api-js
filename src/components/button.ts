@@ -13,7 +13,10 @@ export type ButtonArgs = {
 	color_scheme?: ColorSchemes
 	variant?: ButtonVariant
 	icon?: IconName
-	size?: string
+	size?: ButtonSize
+	disabled?: boolean
+	readonly?: boolean
 }
 
 export type ButtonVariant = "Solid" | "Outline" | "Ghost" | "Link" | "Nostyle"
+export type ButtonSize = "Small" | "Medium" | "Large"

@@ -10,17 +10,19 @@ import { ProgressComponent } from "./components/progress"
 import { CheckboxComponent } from "./components/checkbox"
 import { DropdownComponent } from "./components/dropdown"
 import { LinkComponent } from "./components/link"
+import { ActionPopoverComponent } from "./components/actionpopover"
 
 export type ComponentObject =
+	| ActionPopoverComponent
 	| BadgeComponent
 	| BlockList
 	| ButtonComponent
 	| CardComponent
 	| CheckboxComponent
+	| DropdownComponent
 	| IconComponent
 	| InputComponent
+	| LinkComponent
 	| ProgressComponent
 	| StackComponent
 	| TextComponent
-	| DropdownComponent
-	| LinkComponent

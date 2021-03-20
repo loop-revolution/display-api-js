@@ -1,3 +1,5 @@
+import { IconName } from "./icon"
+import { ActionObject } from "../ActionObject"
 /**
  * The menu component isn't a usual component, and doesn't have a CID, but
  * is used in block cards & pages.
@@ -22,4 +24,16 @@ export type MenuComponent = {
 		edit: number
 		view: number
 	}
+	/**
+	 * When on mobile, these items should be a part of the menu like everything else, but
+	 * on the web these should be icons next to the button to open the menu.
+	 * */
+	custom?: CustomMenuItem[]
+}
+
+export type CustomMenuItem = {
+	icon: IconName
+	text: string
+	interact?: ActionObject
+	disabled?: boolean
 }

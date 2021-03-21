@@ -11,6 +11,8 @@ import { CheckboxComponent } from "./components/checkbox"
 import { DropdownComponent } from "./components/dropdown"
 import { LinkComponent } from "./components/link"
 import { ActionPopoverComponent } from "./components/actionpopover"
+import { DisplayListComponent } from './components/displaylist';
+import { RichTextComponent } from "./components/richtext"
 
 export type ComponentObject =
 	| ActionPopoverComponent
@@ -19,10 +21,12 @@ export type ComponentObject =
 	| ButtonComponent
 	| CardComponent
 	| CheckboxComponent
+	| DisplayListComponent
 	| DropdownComponent
 	| IconComponent
 	| InputComponent
 	| LinkComponent
 	| ProgressComponent
+	| RichTextComponent
 	| StackComponent
 	| TextComponent

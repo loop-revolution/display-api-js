@@ -14,6 +14,11 @@ export type TextArgs = {
 	color_scheme?: ColorSchemes
 	/** Optional styling preset */
 	preset?: TextPreset
+	bold?: boolean
+	italic?: boolean
+	underline?: boolean
+	strikethrough?: boolean
+	monospace?: boolean
 }
 
 export type TextPreset = "Heading" | "Info" | "Default" | "Warn" | "Error"

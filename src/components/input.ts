@@ -1,5 +1,5 @@
 import { MethodObject } from "../MethodObject"
-import { TextComponent } from "./text"
+import { TextArgs } from "./text"
 
 export type InputComponent = {
 	cid: "input"
@@ -15,7 +15,7 @@ export type InputArgs = {
 	/** This should be displayed until clicked, then should turn into this input
 	 * 	If there is a confirm_cancel, it should turn back into this after cancel/confirm.
 	 */
-	mask?: TextComponent
+	mask?: TextArgs
 	confirm_cancel?: {
 		enabled: boolean
 		on_confirm: {

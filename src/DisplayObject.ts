@@ -13,6 +13,8 @@ export type DisplayObject = {
 			title?: string
 			/** The header text for the block page */
 			header?: string
+			/** Alternatively to `header`, render a component */
+			header_component?: ComponentObject
 			/** A menu for block actions on a page */
 			menu?: MenuComponent
 		}

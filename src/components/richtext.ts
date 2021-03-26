@@ -1,5 +1,4 @@
 import { MethodObject } from "../MethodObject"
-import { LinkComponent } from "./link"
 import { TextComponent } from "./text"
 
 export type RichTextComponent = {
@@ -9,7 +8,7 @@ export type RichTextComponent = {
 
 export type RichTextArgs = {
 	/** The (inline) pieces of text to render */
-	content: Array<TextComponent | LinkComponent>
+	content: Array<TextComponent>
 	/** Default to false, but if it is true then the document should be editable, easiest way is to use Slate.js */
 	editable?: boolean
 	/** The value to save should be exactly the same format as the `content` field is, as the object (not a string) */

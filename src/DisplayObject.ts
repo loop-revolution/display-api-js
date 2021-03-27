@@ -18,5 +18,6 @@ export type DisplayObject = {
 			/** A menu for block actions on a page */
 			menu?: MenuComponent
 		}
+		color?: string
 	}
 }

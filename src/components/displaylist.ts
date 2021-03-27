@@ -10,6 +10,7 @@ export type DisplayListComponent = {
 export type DisplayListArgs = {
 	/** All the items to include */
 	items: DisplayListItem[]
+	color?: string
 }
 
 export type DisplayListItem = {

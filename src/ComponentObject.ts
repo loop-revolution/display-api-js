@@ -11,8 +11,9 @@ import { CheckboxComponent } from "./components/checkbox"
 import { DropdownComponent } from "./components/dropdown"
 import { LinkComponent } from "./components/link"
 import { ActionPopoverComponent } from "./components/actionpopover"
-import { DisplayListComponent } from './components/displaylist';
+import { DisplayListComponent } from "./components/displaylist"
 import { RichTextComponent } from "./components/richtext"
+import { StickyToggleButtonComponent } from "./components/stickytogglebutton"
 
 export type ComponentObject =
 	| ActionPopoverComponent
@@ -29,4 +30,5 @@ export type ComponentObject =
 	| ProgressComponent
 	| RichTextComponent
 	| StackComponent
+	| StickyToggleButtonComponent
 	| TextComponent

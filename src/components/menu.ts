@@ -29,6 +29,8 @@ export type MenuComponent = {
 	 * on the web these should be icons next to the button to open the menu.
 	 * */
 	custom?: CustomMenuItem[]
+	/** The number of comments on the block */
+	comment_count?: number
 }
 
 export type CustomMenuItem = {

@@ -13,4 +13,6 @@ export type StackArgs = {
 	items: Array<{
 		component: ComponentObject
 	}>
+	align_y?: "Top" | "Middle" | "Bottom"
+	align_x?: "Left" | "Middle" | "Right"
 }

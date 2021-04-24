@@ -1,4 +1,4 @@
-import { TextComponent } from "./text"
+import { TextArgs } from "./text"
 
 export type LinkComponent = {
 	cid: "link"
@@ -6,7 +6,7 @@ export type LinkComponent = {
 }
 
 export type LinkArgs = {
-	text: TextComponent
+	text: TextArgs
 	external?: boolean
 	/** See the redirect option in the action object */
 	app_path?: string

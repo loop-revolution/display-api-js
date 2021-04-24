@@ -17,4 +17,6 @@ export type RichTextArgs = {
 	save?: MethodObject
 	/** Method to call when the "enter" or "return" key is pressed. */
 	on_enter?: MethodObject
+	/** Should there be a border style around the rich text? */
+	bordered?: boolean
 }

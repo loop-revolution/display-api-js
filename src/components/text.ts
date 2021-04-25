@@ -19,6 +19,7 @@ export type TextArgs = {
 	underline?: boolean
 	strikethrough?: boolean
 	monospace?: boolean
+	tiny_space?: boolean
 }
 
 export type TextPreset = "Heading" | "Info" | "Default" | "Warn" | "Error"

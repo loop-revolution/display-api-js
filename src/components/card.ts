@@ -31,4 +31,10 @@ export type CardArgs = {
 	color?: string
 	/** Main content of the card */
 	content: ComponentObject
+	detached_menu?: DetachedMenu
+}
+
+export type DetachedMenu = {
+	location: "BottomRight"
+	menu: MenuComponent
 }

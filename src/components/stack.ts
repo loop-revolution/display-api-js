@@ -8,7 +8,7 @@ export type StackComponent = {
 
 export type StackArgs = {
 	/** Direction to stack the items, default is "Fit" */
-	direction?: "Horizontal" | "Vertical" | "Fit"
+	direction?: "Horizontal" | "Vertical" | "Fit" | "Masonry"
 	/** List of components to include in the stack */
 	items: Array<{
 		component: ComponentObject

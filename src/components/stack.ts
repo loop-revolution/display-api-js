@@ -15,5 +15,5 @@ export type StackArgs = {
 	}>
 	align_y?: "Top" | "Middle" | "Bottom"
 	align_x?: "Left" | "Middle" | "Right"
-	spacing?: "between" | "around" | "default"
+	spacing?: "Between" | "Around" | "Default"
 }

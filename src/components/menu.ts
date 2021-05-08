@@ -38,4 +38,6 @@ export type CustomMenuItem = {
 	text: string
 	interact?: ActionObject
 	disabled?: boolean
+	/** Default is false, whether or not to include the item in the menu itself, or outside (when applies) */
+	listed?: boolean
 }

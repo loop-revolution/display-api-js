@@ -32,6 +32,8 @@ export type CardArgs = {
 	/** Main content of the card */
 	content: ComponentObject
 	detached_menu?: DetachedMenu
+	/** If it just doesn't work on mobile, use this as an override */
+	mobile_override?: CardArgs
 }
 
 export type DetachedMenu = {
